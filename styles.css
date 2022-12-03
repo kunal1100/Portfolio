@@ -371,3 +371,65 @@
     padding-top: 130px;
     margin-top: 218px;
 }
+
+@media (min-width: 1420px) and (max-width: 1950px){
+    .herosection{
+        display: flex;
+        margin-left: 400px;
+    }
+    .underline{
+        margin-left: 280px;
+    }
+    .buttonsabout{
+        margin-left: 670px;
+    }
+    .companylogo{
+        margin-left: 450px;
+    }
+    .card1{
+        margin-left: 330px;
+    }
+    .checkout{
+        margin-left: 280px;
+    }
+    .foonixclient{
+        margin-left: 600px;
+    }
+    .foonixcleint1{
+        margin-left: 300px;
+    }
+    .emailid{
+        margin-left: 655px;
+    }
+}
+
+@media (min-width: 1951px) and (max-width: 2671px){
+    .herosection{
+        display: flex;
+        margin-left: 800px;
+    }
+    .underline{
+        margin-left: 660px;
+    }
+    .buttonsabout{
+        margin-left: 1060px;
+    }
+    .companylogo{
+        margin-left: 850px;
+    }
+    .card1{
+        margin-left: 700px;
+    }
+    .checkout{
+        margin-left: 640px;
+    }
+    .foonixclient{
+        margin-left: 950px;
+    }
+    .foonixcleint1{
+        margin-left: 650px;
+    }
+    .emailid{
+        margin-left: 1030px;
+    }
+}
