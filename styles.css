@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@800&family=Inter:wght@400;500;600&family=Kolker+Brush&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B7B7B7;
+    margin-left: 50px;
+}
+.contactme{
+    width: 145px;
+    height: 53px;
+    background-color: #F7D046;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+.herosection{
+    display: flex;
+    margin-left: 88px;
+}
+.heading{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 82px;
+    font-weight: 800;
+    line-height: 80px;
+}
+.desc{
+    width: 630px;
+    height: 105px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    color: #8E8E8E;
+    margin-top: 44px;
+}
+.getintouch{
+    width: 199px;
+    height: 76px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5B38E3;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 61px;
+}
+.cv{
+    width: 199px;
+    height: 76px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 18px;
+    margin-top: 61px;
+}
+.heroimage{
+    margin-left: 43px;
+    width: 478.14px;
+    height: 549.29px;
+}
+.circle{
+    position: absolute;
+    top: 205px;
+    z-index: -1;
+}
+.aboutme{
+    background-color: #202020;
+    padding-top: 55px;
+    height: 650px;
+}
+.aboutmehead{
+    font-size: 64px;
+    font-weight: 800;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-align: center;
+    color: white;
+}
+.underline{
+    position: absolute;
+    left: 500px;
+}
+.aboutmedesc{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    width: 886px;
+    height: 210px;
+    line-height: 35px;
+}
+.exp{
+    width: 260px;
+    height: 98px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    background-color: black;
+    margin-top: 61px;
+}
+.year{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    color: #F7D046;
+    margin-left: 30px;
+}
+.yeartext{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 107px;
+    height: 50px;
+    line-height: 25px;
+    color: #8E8E8E;
+    text-align: start;
+    margin-left: 31px;
+    margin-top: 24px;
+}
+.exp2{
+    width: 260px;
+    height: 98px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    background-color: black;
+    margin-top: 61px;
+    margin-left: 20px;
+}
+.year2{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    color: #F7D046;
+    margin-left: 30px;
+}
+.yeartext2{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 132px;
+    height: 50px;
+    line-height: 25px;
+    color: #8E8E8E;
+    text-align: start;
+    margin-left: 31px;
+    margin-top: 24px;
+}
+.buttonsabout{
+    display: flex;
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+.companylogo{
+    align-items: center;
+    margin-top: 61px;
+    margin-left: 150px;
+}
+.rptext{
+    font-size: 64px;
+    font-weight: 800;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 99px;
+}
+.cards{
+    display: flex;
+}
+.card1{
+    width: 345px;
+    height: 230px;
+    background-color: #202020;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 65px;
+}
+.card1 img{
+    width: 240px;
+    height: 130px;
+}
+.card1 button{
+    width: 88px;
+    height: 42px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F7D046;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+}
+.headingcard{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    width: 250px;
+    height: 44px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-top: 21px;
+}
+.desccard{
+    width: 267px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #B7B7B7;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+.card2{
+    width: 345px;
+    height: 230px;
+    background-color: #202020;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+.card3{
+    width: 345px;
+    height: 230px;
+    background-color: #202020;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+.card2 img{
+    width: 240px;
+    height: 130px;
+}
+.card2 button{
+    width: 88px;
+    height: 42px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F7D046;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+}
+.card3 img{
+    width: 240px;
+    height: 130px;
+}
+.card3 button{
+    width: 88px;
+    height: 42px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F7D046;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+}
+.checkout{
+    width: 145px;
+    height: 53px;
+    background-color: #5B38E3;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 1135px;
+}
+.whatclientsay{
+    margin-top: 159px;
+}
+.foonixclient{
+    width: 668px;
+    height: 364px;
+    border: 2px solid black;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    margin-left: 305px;
+}
+.semicolan{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 128px;
+    font-weight: 800;
+    top: 20px;
+    margin-left: 20px;
+}
+.review{
+    width: 521px;
+    height: 175px;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    text-align:left;
+    margin-left: 67px;
+}
+.clientdetail{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin-left: 67px;
+    margin-top: 90px;
+}
+.imagefoonix{
+    position: absolute;
+    left: 800px;
+    top: 2700px;
+}
+.connect{
+    margin-top: 213px;
+}
+.write{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.emailid{
+    width: 562px;
+    height: 86px;
+    background-color: #EEEEEE;
+    border: 2px solid #5B38E3;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+.emailid p{
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 130px;
+    width: 100%;
+    background-color: #EEEEEE;
+    font-family: 'Inter', sans-serif;
+    padding-top: 130px;
+    margin-top: 218px;
+}
